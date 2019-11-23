@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadastroMenu">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0025911A"
+        tools:context=".cadastroMenu">
+
+        <Button
+            android:id="@+id/pbVisualizar"
+            android:layout_width="135dp"
+            android:layout_height="52dp"
+            android:text="Visualizar"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="224dp"
+            tools:layout_editor_absoluteY="486dp" />
+
+        <TextView
+            android:id="@+id/textBoasVindas"
+            android:layout_width="267dp"
+            android:layout_height="197dp"
+            android:text="Bem Vindo !!"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="184dp" />
+
+        <Button
+            android:id="@+id/pbCadastro"
+            android:layout_width="149dp"
+            android:layout_height="47dp"
+            android:background="#00000000"
+            android:text="Cadastrar"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="497dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
